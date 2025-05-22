@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero fade-in">
+    <img src="hero image.png" alt="Hero Graphic" class="hero-img" />
+    <h1>Hello, I'm Faith Aholu</h1>
+    <p>Web Developer & Game Designer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <section id="about" class="about fade-in">
+    <h2>About Me</h2>
+      <p>I’m a web developer who loves building beautiful, functional websites. I specialize in HTML, CSS, JavaScript, and other modern frameworks.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services fade-in">
+    <h2>My Services</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <img src="web dev.png" alt="Web Dev" />
+        <h3>Web Development</h3>
+        <p>Responsive and dynamic websites using modern tools and technologies.</p>
+      </div>
+      <div class="service-card">
+        <img src="game uiux.png" alt="Game UI/UX" />
+        <h3>Game UI/UX Design</h3>
+        <p>User-focused designs for seamless and engaging digital game experiences.</p>
+      </div>
+      <div class="service-card">
+        <img src="maintenance.png" alt="Maintenance" />
+        <h3>Maintenance</h3>
+        <p>Ongoing support, updates, and optimization for your site or games.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects fade-in">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <img src="project 1.png" alt="Project 1" />
+        <h3>Project One</h3>
+        <p>An Icecream website built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <img src="project 2.png" alt="Project 2" />
+        <h3>Project Two</h3>
+        <p>A game made with React and Firebase.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact fade-in">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-response"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 24/1978 Faith Aholu Chinunam. All rights reserved. Made with ❤️.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
